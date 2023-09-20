@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('fonts/Jost.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/Oswald.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    display: flex;
+    height: 60px;
+}
+.header__leftelem{
+    display: flex;
+    align-items: center;
+}
+.header__leftelem-logo{
+    width: 48.82px;
+    height: 40px;
+    margin: 10px 14px;
+    cursor: pointer;
+}
+.header__leftelem-search{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+.header__leftelem-search input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+}
+.header__rightelem{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header__rightelem-text{
+    width: 200px;
+    font-size: 16px;
+    padding: 5px;
+    
+}
+.rightelem__profile-image{
+    border:1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 9px;
+}
+.header__rightelem-profile{
+    display: none;
+    align-items: center;
+}
+.rightelem__profile-name{
+    margin: 10px 9px;
+    cursor: pointer;
+}
+.rightelem__entrance-text{
+    text-decoration: none;
+    color: white;
+    
+}
+.rightelem__text{
+    text-decoration: none;
+    color: white;
+}
+.rightelem__burgermenu-top{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+}
+.rightelem__burgermenu-mid{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+}
+.rightelem__burgermenu-bot{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+}
+.header__rightelem-burgermenu{
+    display: none;
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.active{
+    display: flex;
+}
